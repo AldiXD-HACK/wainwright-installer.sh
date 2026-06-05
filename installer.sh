@@ -83,7 +83,7 @@ sudo cp "$(pwd -P)/cert.crt" "/etc/nginx/ssl/"${APP_URL#*//}"/cert.crt"
 sudo cp "$(pwd -P)/private.key" "/etc/nginx/ssl/"${APP_URL#*//}"/private.key"
 
 #importing laravel
-sudo git clone https://github.com/laravel/laravel.git casinodog
+sudo git clone https://github.com/casino-man/laravel-base-casinodog.git casinodog
 sudo mkdir wainwright-tmp
 sudo git clone "${CASINODOG_REMOTE_GIT}" wainwright-tmp/casino-dog
 sudo git clone "${CASINODOG_OPERATOR_API_GIT}" wainwright-tmp/casino-dog-operator-api
